@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './Pages/sharepage/navbar/navbar.component';
 import { BoxComponent } from './Pages/box/box.component';
 import { OrderComponent } from './Pages/order/order.component';
-import { FooterComponent } from './Pages/sharepage/footer/footer.component';
 import { HomeComponent } from './Pages/home/home.component';
 
 @NgModule({
@@ -15,7 +14,6 @@ import { HomeComponent } from './Pages/home/home.component';
     NavbarComponent,
     BoxComponent,
     OrderComponent,
-    FooterComponent,
     HomeComponent
   ],
   imports: [
